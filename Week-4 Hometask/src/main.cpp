@@ -1,3 +1,7 @@
+// Amna            
+// 23-NTU-CS-1013
+// BSCS-5A
+// Week-4 Hometask
 #include <Wire.h>
 #include <Adafruit_GFX.h>
 #include <Adafruit_SSD1306.h>
