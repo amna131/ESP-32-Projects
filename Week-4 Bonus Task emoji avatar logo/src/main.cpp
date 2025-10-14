@@ -1,4 +1,8 @@
-/* 
+//23-NTU-CS-1013            
+//Amna
+//Week-4 Bonus Task (Emoji, Avatar and Logo)
+// All codes in it
+
 // EMOJI
 
 #include <Wire.h>
@@ -29,9 +33,9 @@ void setup() {
 
 void loop() 
 {}
-*/
 
- 
+
+/*
 //AVATAR
 
 #include <Wire.h>
@@ -83,11 +87,8 @@ void setup() {
 }
 
 void loop() {}
+*/
 
-
-//23-NTU-CS-1013            
-//Amna
-//Week-4 Bonus Task (Emoji, Avatar and Logo)
 
 // LOGO CODE
 /*
