@@ -1,4 +1,3 @@
-
 // AMNA
 // 23-NTU-CS-1013
 // TITLE : BUZZER + 2LEDS (Brightness fade)
@@ -9,7 +8,6 @@
 #define LED1_PIN 18      // LED 1
 #define LED2_PIN 19      // LED 2
 #define BUZZER_PIN 27    // Buzzer
-
 // --- PWM channels ---
 #define LED1_CH 0
 #define LED2_CH 1
@@ -50,20 +48,17 @@ void loop() {
       delay(100);
       ledcWrite(BUZZER_CH, 0);        // Stop tone
     }
-
     delay(10);
   }
-
   for (int d = 255; d >= 0; d--) {
     ledcWrite(LED1_CH, d);
     ledcWrite(LED2_CH, 255 - d);
-    
+  
     if (d % 50 == 0) {
       ledcWriteTone(BUZZER_CH, 1200);
       delay(100);
       ledcWrite(BUZZER_CH, 0);
     }
-
     delay(10);
   }
 }
