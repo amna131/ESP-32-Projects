@@ -38,8 +38,8 @@
   "C_Cpp_Runner.compilerArgs": [],
   "C_Cpp_Runner.linkerArgs": [],
   "C_Cpp_Runner.includePaths": [
-    "C:/New folder/esp32-projects/Week-10/Week10-Part2/with web/include",
-    "C:/New folder/esp32-projects/Week-10/Week10-Part2/with web/src",
+    "c:/New folder/esp32-projects/Week-10/Week10-Part2/with web/include",
+    "c:/New folder/esp32-projects/Week-10/Week10-Part2/with web/src",
     "C:/Users/HP/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/newlib/platform_include",
     "C:/Users/HP/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/freertos/include",
     "C:/Users/HP/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/freertos/include/esp_additions/freertos",
