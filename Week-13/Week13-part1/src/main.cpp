@@ -2,7 +2,8 @@
  * AMNA          23-NTU-CS-1013
  * WEEK13-PART1
  * BSCS-5A
- * ESP32 + DHT22 + MQTT (PUBLISHER ONLY)
+ * ESP32 + DHT22 + NodeRed
+ *  (PUBLISHER ONLY)
  * Topic:
  *   home/lab1/temp
  *   home/lab1/hum
@@ -18,7 +19,7 @@ char ssid[] = "Wokwi-GUEST";
 char pass[] = "";
 
 // ---------- MQTT ----------
-const char* mqtt_server = "10.13.40.104";  // Mosquitto / Cloud broker
+const char* mqtt_server = "10.13.71.198";  // Mosquitto / Cloud broker
 const int   mqtt_port   = 1883;
 
 // Topics
